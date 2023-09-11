@@ -6,36 +6,28 @@
  * Return: always 0 (Success)
  */
 
-int main(void)
-{
-	int i = 48;
-	int j;
-	int k;
-	int cal = 44;
+int i, j;
 
-	while (i <= 57)
-	{
-		j = i + 1;
-		while (j <= 57)
-		{
-			k = j + 1;
-			while (k <= 57)
-			{
-				putchar (i);
-				putchar (j);
-				putchar (k);
-				if (i != 55 || j != 56 || k != 57)
-				{
-					putchar (cal);
-					putchar (32);
-				}
-				k += 1;
-			}
-			j += 1;
-		}
-		i += 1;
-	}
-	putchar ('\n');
-	return (0);
+    for (i = 0; i <= 99; i++) {
+        for (j = i; j <= 99; j++) {
+            // Print the first number
+            putchar('0' + (i / 10));
+            putchar('0' + (i % 10));
+
+            // Space
+            putchar(' ');
+
+            // Print the second number
+            putchar('0' + (j / 10));
+            putchar('0' + (j % 10));
+
+            // Comma and space unless it's the last combination
+            if (i != 99 || j != 99) {
+                putchar(',');
+                putchar(' ');
+            }
+        }
+    }
+
+    return 0;
 }
-
