@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * main - print  _putchar
- * 
- * Return: 0
+ * main - Entery function
+ *
+ * Return: always 0 (Success)
  */
-
 int main(void)
 {
 _putchar('_');
