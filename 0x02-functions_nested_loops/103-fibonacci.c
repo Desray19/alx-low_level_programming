@@ -1,7 +1,11 @@
 #include <stdio.h>
+
 /**
- * main - fibonacci funtion
+ * main - finds and prints the sum of the even-valued terms
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 long num1 = 0, num2 = 1, num3 = 0, sum = 0;

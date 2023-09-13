@@ -1,9 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - fibonacci 2 funtion
+ * main - fibonacci <3
  *
+ * Purpose - no hardcode
+ *
+ * Return:  (Success)
  */
+
 int main(void)
 {
     unsigned long int a = 1, b = 2, next;
