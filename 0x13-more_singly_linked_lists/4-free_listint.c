@@ -5,7 +5,7 @@
 * @head: head address of the list
 *
 */
-void free_listint(listint_t *head) 
+void free_listint(listint_t *head)
 {
 listint_t *tmp;
 
