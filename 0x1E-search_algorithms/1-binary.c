@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
-* binary_search - searches in bainary for val
+* binary_search :- it searches in binary value
 * @array: first element of the array
 * @size: The number of elements
 * @value: The value
